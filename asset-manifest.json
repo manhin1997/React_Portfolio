@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.c17b6420.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.56d9de17.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.56d9de17.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.e4231cdb.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.e4231cdb.js.map",
+    "static/js/2.36fa758f.chunk.js": "/React_Portfolio/static/js/2.36fa758f.chunk.js",
+    "static/js/2.36fa758f.chunk.js.map": "/React_Portfolio/static/js/2.36fa758f.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/main.c17b6420.chunk.css.map": "/React_Portfolio/static/css/main.c17b6420.chunk.css.map",
+    "static/js/2.36fa758f.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.36fa758f.chunk.js.LICENSE.txt",
+    "static/media/Icon_blue_512.1eb0aac8.png": "/React_Portfolio/static/media/Icon_blue_512.1eb0aac8.png",
+    "static/media/Icon_red_512.ad90e6a1.png": "/React_Portfolio/static/media/Icon_red_512.ad90e6a1.png",
+    "static/media/btb_dance.1681dc44.png": "/React_Portfolio/static/media/btb_dance.1681dc44.png",
+    "static/media/btb_home.95721ed9.png": "/React_Portfolio/static/media/btb_home.95721ed9.png",
+    "static/media/hkhs_ballgame.28e96d5f.png": "/React_Portfolio/static/media/hkhs_ballgame.28e96d5f.png",
+    "static/media/hkhs_home.cac8cbab.png": "/React_Portfolio/static/media/hkhs_home.cac8cbab.png",
+    "static/media/hkhs_karaoke.bfa1b19a.png": "/React_Portfolio/static/media/hkhs_karaoke.bfa1b19a.png",
+    "static/media/hkhs_sumgame.be48a884.png": "/React_Portfolio/static/media/hkhs_sumgame.be48a884.png",
+    "static/media/neurogym_dailymission.5946d98e.png": "/React_Portfolio/static/media/neurogym_dailymission.5946d98e.png",
+    "static/media/neurogym_home.7b3ebf61.png": "/React_Portfolio/static/media/neurogym_home.7b3ebf61.png",
+    "static/media/neurogym_minigame.70eb922f.png": "/React_Portfolio/static/media/neurogym_minigame.70eb922f.png",
+    "static/media/neurogym_training.b1260c65.png": "/React_Portfolio/static/media/neurogym_training.b1260c65.png",
+    "static/media/tbc_game.0103b480.png": "/React_Portfolio/static/media/tbc_game.0103b480.png",
+    "static/media/tbc_home.05dd2ecc.png": "/React_Portfolio/static/media/tbc_home.05dd2ecc.png",
+    "static/media/tbc_win.bbee1e8c.png": "/React_Portfolio/static/media/tbc_win.bbee1e8c.png",
+    "static/media/app.scss": "/React_Portfolio/static/media/web-dev-bg-page.17d4dcd5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4231cdb.js",
+    "static/js/2.36fa758f.chunk.js",
+    "static/css/main.c17b6420.chunk.css",
+    "static/js/main.56d9de17.chunk.js"
+  ]
+}
