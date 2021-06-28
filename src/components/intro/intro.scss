@@ -1,0 +1,66 @@
+@import "../../app.scss";
+
+$border-width: 50px;
+.intro{
+    //border: solid green 20px;
+    height: calc(#{$page-height} - #{$toppx});
+    .expand{
+        color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        width: 75px;
+        height: 75px;
+        left: calc(50% - 37.5px);
+        animation-name: icon_opacity;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes icon_opacity {
+        0%{
+            opacity: 0%;
+        }
+        50%{
+            opacity: 100%;
+        }
+        100%{
+            opacity: 0%;
+        }
+    }
+
+
+    .wrapper{
+        transform: translateY(-25px);
+        width: calc(100% -#{$border-width});
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: no-wrap;
+        border-left: solid rgba($color: #000000, $alpha: 0.0) #{$border-width};
+        border-right: solid rgba($color: #000000, $alpha: 0.0) #{$border-width};
+        gap: 2.5em;
+
+        .title{
+            text-align: center;
+            color: white;
+        }
+        .space{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            > *{
+                overflow-y: hidden;
+            }
+        }
+
+        /*-------TYPED_TEXT------------*/
+        .type-text{
+            font-weight: 300;
+            color: rgba($color: #ffc400, $alpha: 1.0);
+            overflow-y: hidden;
+        }
+    }
+}
