@@ -16,7 +16,7 @@ $hover-ani: 1s;
         background-position-x: center;
         background-position-y: center;
         position: relative;
-        top: $toppx;
+        top: #{$toppx};
         scroll-snap-type: y mandatory;
 
         > *{

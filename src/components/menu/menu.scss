@@ -7,7 +7,7 @@ $menu_width: 300px;
     z-index: 2;
     width: $menu_width;
     height: calc(#{$page-height} - #{$toppx});
-    top: $toppx;
+    top: #{$toppx};
     right: calc(#{$menu_width} * -1);
     position: fixed;
     display: flex;

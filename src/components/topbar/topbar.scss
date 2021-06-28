@@ -3,7 +3,7 @@
 .topbar{
     //overflow: hidden;
     width: 100%;
-    height: $toppx;
+    height: #{$toppx};
     background-color: $main-color;
     position: fixed;
     z-index: 3;

@@ -1,50 +1,63 @@
 import "./work.scss"
-import {Dialog, DialogContent, IconButton, DialogActions } from '@material-ui/core'
+import {Dialog, IconButton } from '@material-ui/core'
 import MuiDialogTitle from '@material-ui/core/DialogTitle';
 import CloseIcon from '@material-ui/icons/Close';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import {useState} from "react";
-import { Translate } from "@material-ui/icons";
+//Import images relative path
+import btb_dance from '../../resources/images/work/btb/btb_dance.png';
+import btb_home from '../../resources/images/work/btb/btb_home.png';
+import hkhs_ballgame from '../../resources/images/work/hkhs/hkhs_ballgame.png';
+import hkhs_home from '../../resources/images/work/hkhs/hkhs_home.png';
+import hkhs_karaoke from '../../resources/images/work/hkhs/hkhs_karaoke.png';
+import hkhs_sumgame from '../../resources/images/work/hkhs/hkhs_sumgame.png';
+import neurogym_dailymission from '../../resources/images/work/neurogym/neurogym_dailymission.png';
+import neurogym_home from '../../resources/images/work/neurogym/neurogym_home.png';
+import neurogym_minigame from '../../resources/images/work/neurogym/neurogym_minigame.png';
+import neurogym_training from '../../resources/images/work/neurogym/neurogym_training.png';
+import tbc_game from '../../resources/images/work/tbc/tbc_game.png';
+import tbc_home from '../../resources/images/work/tbc/tbc_home.png';
+import tbc_win from '../../resources/images/work/tbc/tbc_win.png';
 
 const CardList = [
     {
-        img : "assets/images/work/neurogym/neurogym_home.png",
+        img : neurogym_home,
         title: "Neurogym - 腦有記",
         des:  "一個進行認知訓練的遊戲平台。遊戲會根據不同的學術研究，設計了一系列有趣、互動的個人化訓練，幫助監測認知表現。",
         clickInfo : {
             title: "Neurogym - 腦有記",
-            imgs: ["assets/images/work/neurogym/neurogym_dailymission.png", "assets/images/work/neurogym/neurogym_home.png",
-            "assets/images/work/neurogym/neurogym_minigame.png", "assets/images/work/neurogym/neurogym_training.png"]
+            imgs: [neurogym_dailymission, neurogym_home,
+                neurogym_minigame, neurogym_training]
         }
     },
     {
-        img : "assets/images/work/hkhs/hkhs_home.png",
+        img : hkhs_home,
         title: "房協 - 樂得耆所安老計劃",
         des:  "利用不同的小遊戲與活動，例如唱K，推重力球，計加減乘除數。以幫助義工與長者進行交流和互動。",
         clickInfo : {
             title: "房協 - 樂得耆所安老計劃",
-            imgs: ["assets/images/work/hkhs/hkhs_ballgame.png", "assets/images/work/hkhs/hkhs_home.png",
-            "assets/images/work/hkhs/hkhs_karaoke.png", "assets/images/work/hkhs/hkhs_sumgame.png"]
+            imgs: [hkhs_ballgame, hkhs_home,
+                hkhs_karaoke, hkhs_sumgame]
         }
     },
     {
-        img : "assets/images/work/btb/btb_home.png",
+        img : btb_home,
         title : "Beat the Beats Rhythm Game",
         des : "A ryhthm game that uses motion tracking to track dance moves via an Android App.",
         clickInfo : {
             title : "Beat the Beats Rhythm Game",
-            imgs: ["assets/images/work/btb/btb_home.png", "assets/images/work/btb/btb_dance.png"]
+            imgs: [btb_dance, btb_home]
         }
     },
     {
-        img : "assets/images/work/tbc/tbc_game.png",
+        img : tbc_game,
         title : "Turn Base Combat Demo",
         des : "Create a turn base combat system with real time interaction using State Machines.",
         clickInfo : {
             title : "Turn Base Combat Demo",
-            imgs: ["assets/images/work/tbc/tbc_game.png", "assets/images/work/tbc/tbc_home.png",
-            "assets/images/work/tbc/tbc_win.png"]
+            imgs: [tbc_game, tbc_home,
+                tbc_win]
         }
     }
 ]

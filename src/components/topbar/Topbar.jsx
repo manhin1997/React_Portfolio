@@ -1,4 +1,6 @@
 import "./topbar.scss"
+import redlogo from "../../resources/images/Icon_red_512.png"
+import bluelogo from "../../resources/images/Icon_blue_512.png"
 
 export default function Topbar({menuOpen, setmenuOpen, hoverOnTop, sethoverOnTop}) {
     return (
@@ -8,8 +10,8 @@ export default function Topbar({menuOpen, setmenuOpen, hoverOnTop, sethoverOnTop
                 <div className="left">
                     <a href="#intro" className="item">
                         <div className="img_gp">
-                            <img src="assets/images/Icon_red_512.png" alt="Portfolio Icon" className={"overlap_img " + (!hoverOnTop && (" hidden"))}/>
-                            <img src="assets/images/Icon_blue_512.png" alt="Portfolio Icon" className={"overlap_img " + (hoverOnTop && (" hidden"))}/>
+                            <img src={redlogo} alt="Portfolio Icon" className={"overlap_img " + (!hoverOnTop && (" hidden"))}/>
+                            <img src={bluelogo} alt="Portfolio Icon" className={"overlap_img " + (hoverOnTop && (" hidden"))}/>
                         </div>
                     </a>
                     <div className="item">Welcome!</div>
