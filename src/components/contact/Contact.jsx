@@ -49,7 +49,7 @@ export default function Contact() {
 
     const submitForm = (event) => {
         //Sumbit the form via calling API
-        axios.put('/mail', values)
+        axios.put('https://portfoliobackend-318712.uc.r.appspot.com/mail', values)
             .then(response => console.log(response.data));
         resetForm();
         event.preventDefault();
