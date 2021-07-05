@@ -1,5 +1,6 @@
 {
   "homepage": "http://manhin1997.github.io/React_Portfolio",
+  "proxy" : "https://portfoliobackend-318712.uc.r.appspot.com",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
     "gh-pages": "^3.2.3",
     "node-sass": "^6.0.0",
     "react": "^17.0.2",

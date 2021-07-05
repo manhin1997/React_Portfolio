@@ -25,6 +25,8 @@
   font-size: 48px;
   padding-top: 20px;
   padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .timeline {
@@ -231,6 +233,6 @@
   .container.left .content,
   .container.right .content {
     padding: 30px 30px 30px 90px;
-    border-radius: 500px 0 0 500px;
+    border-radius: 50px 0 0 50px;
   }
 }

@@ -8,7 +8,7 @@ export default function Portfolio() {
             <div className="timeline">
                 <div className="container left">
                     <div className="date">SEP 2016 <br className="show-mobile"/>-<br/>SEP 2020</div>
-                    <i class="icon fas fa-graduation-cap"></i>
+                    <i className="icon fas fa-graduation-cap"></i>
                     <div className="content">
                         <h2><b>BSc (HONS) COMPUTING</b> |
                             <br/>Hong Kong Polytechnic University</h2>
@@ -21,7 +21,7 @@ export default function Portfolio() {
                 </div>
                 <div className="container right">
                 <div className="date">JAN 2019 <br className="show-mobile"/>-<br/>AUG 2019</div>
-                    <i class="icon fas fa-shield-alt"></i>
+                    <i className="icon fas fa-shield-alt"></i>
                     <div className="content">
                         <h2><b>IT Intern (Information Security Governance Team)</b> |
                             <br/>Hong Kong Housing Society</h2>
@@ -32,7 +32,7 @@ export default function Portfolio() {
                 </div>
                 <div className="container left">
                 <div className="date">MAY 2020 <br className="show-mobile"/>-<br/>PRESENT</div>
-                    <i class="icon fas fa-gamepad"></i>
+                    <i className="icon fas fa-gamepad"></i>
                     <div className="content">
                         <h2><b>Game Developer</b> |
                             <br/>Medmind Technology</h2>

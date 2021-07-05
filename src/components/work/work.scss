@@ -33,9 +33,8 @@ $dark-red : #BA0F30;
 }
 
 .MuiDialog-root{
-    background-color: transparent;
     .MuiDialog-paper{
-        background-color: #64BBE3;
+        background-color: $light-blue;
     }
 }
 

@@ -88,7 +88,7 @@ export default function Work() {
                         <Cards {...card} handleOpen = {()=> handleOpen(card.clickInfo)}/>
                     ))
                 }
-            </div>
+            </div> 
             
         </div>
     )
@@ -125,7 +125,6 @@ function DialogBox(props){
         setIndex(temp);
         console.log('Index is: '+index);
     }
-    console.log("Click Info: "+clickInfo.imgs);
 
     let slideOutput = clickInfo.imgs.map((item, index) => 
         <div className="slideshowSlider">
@@ -169,7 +168,7 @@ function Cards(props){
                     <img src={props.img} alt="Card Icon" className="card-Img"/>
                     <h2 className="card-title">{props.title}</h2>
                     <p className="card-des">{props.des}</p>
-                    <button className="card-btn" color="secondary"> Click Here!</button>
+                    <button className="card-btn" color="primary">Click Here!</button>
                 </div>
         </div>
     )
