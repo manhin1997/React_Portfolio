@@ -12,4 +12,15 @@
         padding-top: 20px;
         padding-bottom: 30px;
     }
+    .msg-signal{
+        text-align: center;
+        font-size: 18px;
+        &.error{
+            color: red;
+        }
+        &.success{
+            color: rgb(107, 236, 100);
+        }
+    }
+
 }
