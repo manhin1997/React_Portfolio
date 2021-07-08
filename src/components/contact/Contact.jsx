@@ -61,7 +61,7 @@ export default function Contact() {
     }
 
     async function ApiPut(){
-        const res = await axios.put('https://portfoliobackend-318712.uc.r.appspot.com/mail', values);
+        const res = await axios.put('https://portfolio-henry-emailsender.herokuapp.com/mail', values);
         console.log("Status: "+res.status);
         console.log("Response: "+res.data);
         switch(res.status){
