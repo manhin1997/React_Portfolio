@@ -31,7 +31,7 @@ $border-width: 50px;
 
     .wrapper{
         transform: translateY(-25px);
-        width: calc(100% -#{$border-width});
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;

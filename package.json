@@ -1,6 +1,6 @@
 {
   "homepage": "http://manhin1997.github.io/React_Portfolio",
-  "proxy" : "https://portfolio-henry-emailsender.herokuapp.com",
+  "proxy": "https://portfolio-henry-emailsender.herokuapp.com",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,

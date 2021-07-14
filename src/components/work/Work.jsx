@@ -44,7 +44,7 @@ const CardList = [
     {
         img : btb_home,
         title : "Beat the Beats Rhythm Game",
-        des : "A ryhthm game that uses motion tracking to track dance moves via an Android App.",
+        des : "A rhythm game that uses motion tracking to track dance moves via an Android App.",
         clickInfo : {
             title : "Beat the Beats Rhythm Game",
             imgs: [btb_dance, btb_home]

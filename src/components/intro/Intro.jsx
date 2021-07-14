@@ -1,6 +1,6 @@
 import "./intro.scss";
 import Typed from "react-typed";
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import ExpandMore from '@material-ui/icons/ExpandMore';
 
 export default function intro() {
     var ReactFitText  = require('react-fittext');
@@ -31,7 +31,7 @@ export default function intro() {
                 />
                 </ReactFitText>
 
-                <a href="#portfolio"><ExpandMoreIcon className="expand"/></a>
+                <a href="#portfolio"><ExpandMore className="expand"/></a>
             </div>
 
         </div>
